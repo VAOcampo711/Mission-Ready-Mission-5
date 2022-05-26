@@ -1,0 +1,237 @@
+#quotetext {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Lato;
+}
+
+#qs {
+    font-size: 32px;
+}
+
+#toggle {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+       
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #1f86c7;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #1f86c7;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#content2 {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-align: center;
+    font-family: Lato;
+}
+
+#insurance2 {
+    padding-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#list2 {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.compare2 {
+    width: 33.33333333%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info2 {
+    background-color: #e9f4fb;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    box-shadow: 0 3px #A9AEB0;
+    width: 375px;
+}
+
+.infoheader2 {
+    padding-top: 20px;
+}
+
+.points2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: disc;
+}
+
+.info3 {
+    background-color: #1f86c7;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    box-shadow: 0 3px #A9AEB0;
+    width: 375px;
+}
+
+.infoheader3 {
+    color: white;
+    padding-top: 20px;
+}
+
+.points3 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: disc;
+}
+
+.divbutton2 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+hr.new1 {
+    border: 1px solid #58b3ed;
+}
+
+hr.new2 {
+    border: 1px solid #1f86c7;
+}
+
+.button3 {
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #15AF25;
+    background-color: #15AF25;
+    color: white;
+    font-family: Lato;
+}
+
+.button3:hover {
+    background-color: white;
+    color: #15AF25;
+}
+
+#car-button5 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Lato;
+}
+
+.button5 {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #1f86c7;
+    background-color: white;
+    color: #1f86c7;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.button5:hover {
+    background-color: #1f86c7;
+    color: white;
+}
+
+#recalculate {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Lato;
+}
+
+.recalc2 {
+    padding: 25px 50px 25px 50px;
+    border: 1px solid #1f86c7;
+    background-color: #e9f4fb;
+    border-radius: 10px;
+}
+
+.button6 {
+    width: 175px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #1f86c7;
+    background-color: white;
+    color: #1f86c7;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.button6:hover {
+    background-color: #1f86c7;
+    color: white;
+}
+
+#checkbox5 {
+    color: red;
+}

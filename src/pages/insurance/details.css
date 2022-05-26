@@ -1,0 +1,20 @@
+#detailbutton {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.button9 {
+    width: 175px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #1f86c7;
+    background-color: #1f86c7;
+    color: white;
+    padding: 10px;
+    font-family: Lato;
+}
+
+.button9:hover {
+    background-color: white;
+    color: #1f86c7;
+}

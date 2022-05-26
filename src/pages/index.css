@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+.rectangle {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: #e9f4fb;
+}
+
+.text1 {
+    font-family: Lato;
+    font-size: 40px;
+    text-align: center;
+    width: 65%;
+    padding-top: 90px;
+    font-weight: bold;
+}
+
+.text2 {
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
+    width: 65%;
+}
+
+.button {
+    font-family: Lato;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #1f86c7;
+    background-color: white;
+    color: #1f86c7;
+}
+
+.button:hover {
+    background-color: #1f86c7;
+    color: white;
+}
+
+.home-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 400px;
+    max-width: 35%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#content {
+    font-family: Lato;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#insurance {
+    padding-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 0;
+}
+
+.compare {
+    width: 33.33333333%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info {
+    background-color: #e9f4fb;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    box-shadow: 0 3px #A9AEB0;
+    width: 375px;
+}
+
+.carimg {
+    max-width: 100%;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 4px #1f86c7;
+}
+
+.infoheader {
+    padding: 20px 0 0 25px;
+}
+
+.points {
+    padding-left: 45px;
+    padding-right: 10px;
+    list-style-type: disc;
+}
+
+.divbutton {
+    font-family: Lato;
+    padding-top: 15px;
+    text-align: center;
+}
