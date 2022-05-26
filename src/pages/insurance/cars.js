@@ -2,6 +2,7 @@ import React from 'react';
 import './cars.css';
 import { Link } from "react-router-dom";
 import { Stepper, Step } from 'react-form-stepper';
+import point from './point.png';
 
 const Car = () => {
 	return (
@@ -23,8 +24,7 @@ const Car = () => {
 					<br />
 					<br />
 					<br />
-					<br />
-					<p id="random">By make/model</p>
+					<p>By make/model</p>
 					<br />
 					<div id="dropdown">
 						<select id="caroption" name="caroption">
@@ -38,7 +38,9 @@ const Car = () => {
 							<option>Suzuki</option>
   						</select>
 					</div>
-					
+					<div id="pointimage">
+						<img src={point} id ="pointimg"  alt="Point" />
+					</div>
 				</div>
 			</section>
 			<div id="car-button">
