@@ -33,7 +33,7 @@ const Quotes = () => {
 				<div id="insurance2">
 					<ul id="list2">
 						<li class="compare2">
-							<div class="info2">
+							<div class="info">
 								<div class="infoheader2"><h2>Third Party Insurance</h2><hr class="new2" /><br /><br /></div>
 								<h2>${tpamount} <br /> Per Month </h2><br /><br />
 								<ul class="points2">
@@ -80,11 +80,11 @@ const Quotes = () => {
 				<Link to="#"><button class="button5" >Save</button></Link>
 			</div>
 			<div id="recalculate">
-				<h3><span class="recalc2">Add Windscreen Protection  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox" id="checkbox5" /></span></h3>
+				<h3><span class="recalc2">Add Windscreen Protection  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox" /></span></h3>
 				<br /><br /><br /><br />
-				<h3><span class="recalc2">Hire Car Protection  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox" id="checkbox5" /></span></h3>
+				<h3><span class="recalc2">Hire Car Protection  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox" /></span></h3>
 				<br /><br /><br /><br />
-				<h3><span class="recalc2">Change to $0 Excess  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox" id="checkbox5" /></span></h3>
+				<h3><span class="recalc2">Change to $0 Excess  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox" /></span></h3>
 				<br /><br /><br /><br />
 				<Link to="#"><button class="button6" >Recalculate</button></Link>
 			</div>

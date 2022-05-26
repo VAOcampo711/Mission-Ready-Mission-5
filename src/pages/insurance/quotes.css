@@ -78,18 +78,12 @@ input:checked + .slider:before {
 
 #content2 {
     display: block;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 10px;
     background-color: white;
     text-align: center;
     font-family: Lato;
-}
-
-#insurance2 {
-    padding-top: 15px;
-    padding-left: 0;
-    padding-right: 0;
-    width: 1170px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -98,25 +92,12 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin-bottom: 0;
-    margin-left: -25px;
-    margin-right: -25px;
-    padding-left: 0;
     list-style-position: inside;
 }
 
 .compare2 {
-    width: 33.33333333%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.info2 {
-    background-color: #e9f4fb;
-    border-radius: 25px;
-    padding-bottom: 10px;
-    box-shadow: 0 3px #A9AEB0;
-    width: 375px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .infoheader2 {
@@ -230,8 +211,4 @@ hr.new2 {
 .button6:hover {
     background-color: #1f86c7;
     color: white;
-}
-
-#checkbox5 {
-    color: red;
 }

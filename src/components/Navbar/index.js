@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavLink, NavLink2, NavMenu } from "./NavbarElements";
+import { Nav, NavLink, NavLink1, NavLink2, NavMenu, Bars } from "./NavbarElements";
 import logo from './turner-logo.jpg'
 import phone from './phone.jpg'
 import person from './person.png'
@@ -7,11 +7,12 @@ import person from './person.png'
 const Navbar = () => {
 	return (
 		<>
+		<Bars></Bars>
 		<Nav>
 			<NavMenu>
-				<NavLink to="/" activeStyle>
+				<NavLink1 to="/" activeStyle>
 					<img src={logo} width={250} height={50}  alt="Logo" />
-		    	</NavLink>
+		    	</NavLink1>
 		    	<NavLink to="#" activeStyle>
 			    	Buy a Car
 		    	</NavLink>
@@ -28,7 +29,7 @@ const Navbar = () => {
 			    	Insurance
 		    	</NavLink>
 				<NavLink2 to="#" activeStyle>
-					<img src={person} width={25} height={20}  alt="Person" /> 
+					<img src={person} width={20} height={20}  alt="Person" /> 
 			    	Join Turners
 		    	</NavLink2>
 				<NavLink2 to="#" activeStyle>

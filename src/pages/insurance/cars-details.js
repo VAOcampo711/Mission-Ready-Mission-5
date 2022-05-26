@@ -16,7 +16,7 @@ const CarDet = () => {
 					<Step label="Purchase	" />
 				</Stepper> 
 			</div>
-			<section id="car-fill2">
+			<section id="car-fill">
 				<div id="car-form2">
 					<h2>We've found your Car. <br /> Nice Wheels!</h2>
 					<br />
@@ -30,13 +30,13 @@ const CarDet = () => {
 						White <br />
 					</h3>
 					<div id="binoimage">
-					<img src={bino} id ="bmw2"  alt="Car" />
+						<img src={bino} id ="bino"  alt="Car" />
 					</div>
 				</div>
 			</section>
 			<div id="car-button">
-				<Link to="/cars"><button class="button2" >Back</button></Link>
-				<Link to="/details"><button class="button2" >Next</button></Link>
+				<Link to="/cars"><button class="button" >Back</button></Link>
+				<Link to="/details"><button class="button" >Next</button></Link>
 			</div>
 		</div>
 	);

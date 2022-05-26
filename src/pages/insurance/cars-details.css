@@ -1,20 +1,11 @@
-#progress {
-    background-color: #e9f4fb;
-}
-
-#car-fill2 {
-    padding-top: 30px;
-    font-family: Lato;
-}
-
 #car-form2 {
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 10px;
     padding-top: 50px;
     box-shadow: 0 3px #A9AEB0;
-    width: 550px;
-    height: 550px;
+    width: 34.375rem;
+    height: 34.375rem;
     text-align: center;
 }
 
@@ -25,37 +16,14 @@
 }
 
 #bmw {
-    width: 175px;
-    margin-right: 100px;
+    width: 200px;
+    margin-right: 75px;
 }
 
 #binoimage {
-    padding: 120px 0 0 0;
+    padding-top: 120px;
 }
 
-#bmw2 {
+#bino {
     width: 250px;
-}
-
-#car-button {
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 40% 0 40%;
-}
-
-.button2 {
-    width: 120px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 8px;
-    border: 1px solid #1f86c7;
-    background-color: white;
-    color: #1f86c7;
-    font-family: Lato;
-}
-
-.button2:hover {
-    background-color: #1f86c7;
-    color: white;
 }

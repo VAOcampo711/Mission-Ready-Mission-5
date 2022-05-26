@@ -42,8 +42,8 @@ const Car = () => {
 				</div>
 			</section>
 			<div id="car-button">
-				<Link to="/"><button class="button2" >Back</button></Link>
-				<Link to="/cardetails"><button class="button2" >Next</button></Link>
+				<Link to="/"><button class="button" >Back</button></Link>
+				<Link to="/cardetails"><button class="button" >Next</button></Link>
 			</div>
 		</div>
 	);

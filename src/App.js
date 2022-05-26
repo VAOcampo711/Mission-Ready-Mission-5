@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages';
@@ -9,6 +9,9 @@ import DetailsFilled from './pages/insurance/detailsfilled';
 import Quotes from './pages/insurance/quotes';
 
 function App() {
+	useEffect(() => {
+		document.title = "Turners Cars"
+	  }, [])
   	return (
 	  <Router>
 	  	<Navbar />
